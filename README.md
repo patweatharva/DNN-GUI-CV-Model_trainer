@@ -4,15 +4,17 @@ Development of Computer Vision based POC for Engine part inspection using Deep N
 
 Configuration Process :-
 1.	To run python file download and install the following libraries with specified versions using python package manager (pip)
-PyQt5                        5.15.6
-PyQt5-Qt5                    5.15.2
-PyQt5-sip                    12.10.1
-opencv-contrib-python        4.6.0.66
-opencv-python                4.6.0.66
-numpy                        1.22.4
+
+* PyQt5                        5.15.6
+* PyQt5-Qt5                    5.15.2
+* PyQt5-sip                    12.10.1
+* opencv-contrib-python        4.6.0.66
+* opencv-python                4.6.0.66
+* numpy                        1.22.4
 
 2.	Connect camera to the PC/ Controller and run the file.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![alt text](https://github.com/patweatharva/DNN-GUI-CV-Model_trainer/blob/main/test_dataset/Picture1.jpg)
 
 
 3.	You should see the camera feed on the GUI 
@@ -24,13 +26,17 @@ numpy                        1.22.4
 9.	Copy the path of the dataset directory and put it in NN_model file for training.
 10. Put the path of Directory in the function call highlighted in blue
 
+![alt text](https://github.com/patweatharva/DNN-GUI-CV-Model_trainer/blob/main/test_dataset/Picture2.png)
+
  
-
-
 11.	Put number of iterations to train for and batch size or leave it default
 12.	For inference put the input path to the function call highlighted in yellow 
+
+![alt text](https://github.com/patweatharva/DNN-GUI-CV-Model_trainer/blob/main/test_dataset/Picture3.png)
 
 13.	Run model.predict(img) cell for inference
 
 14.	To convert the model into onnx format run following cells 
+
+![alt text](https://github.com/patweatharva/DNN-GUI-CV-Model_trainer/blob/main/test_dataset/Picture4.png)
 
